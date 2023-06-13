@@ -1,0 +1,430 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/*Color to used for Gardient code left side is A6A6A6 the right side is FFFFFF*/
+
+/* Styling for the header */
+header {
+    background-color: #A6A6A6;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    text-align: center;
+    padding: 10px 0
+  }
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+
+  }
+
+  .css-box-shadow {
+    padding-top: 33px;
+    background: #A6A6A6; 
+	border: solid #FFFFFF 0;
+	box-shadow: 0 1px 52px rgba(255, 255, 255, 0.6)  ; 
+	-webkit-box-shadow: 0 1px 52px rgba(255, 255, 255, 0.6)  ; 
+	-moz-box-shadow: 0 1px 52px rgba(255, 255, 255, 0.6)  ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  
+ /* Style for Nav Bar */
+ .navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center the text */
+  }
+  
+  .navigation li {
+    display: inline-block;
+  }
+  
+  .navigation li a {
+    display: inline-block;
+    padding: 0 200px 5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  
+  .navigation li a:hover {
+    background-color: #a6a6a6;
+  }
+  
+
+#hero {
+    background-color: #A6A6A6;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    padding-top: 250px;
+
+  }
+
+body {
+    background-color: #A6A6A6;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: black;
+}
+
+
+
+/* Container padding */
+.container {
+    display: block;
+    margin: auto;
+    max-width: 1100px;
+}
+
+.img-project {
+  max-width: 70%;
+
+  border: 1px solid #A6A6A6;
+  margin-right: 20px;
+
+}
+
+.h3-text {
+    font-size: 35px;
+    padding: 5px;
+}
+
+.p-text {
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+
+.view-project {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    border-top: 8px solid#000000;
+    border-bottom: 8px solid #000000;
+    transition: 0.2s opacity;
+    display: block;
+    margin: auto;
+    max-width: 1100px;
+    text-align: center;
+    
+}
+.view-project-container-lit {
+    margin-top: 130px;
+}
+
+.view-project-container-explz {
+    margin-top: 30px;
+}
+
+.view-project-container-sn {
+    margin-top: 160px;
+}
+
+h1,h2,h3,h4 {
+    line-height: 1.4;
+}
+
+h1{
+    font-size: 2.75em;
+    font-weight: 700;
+}
+
+h2  {
+    font-size: 2.25em;
+    font-weight:700;
+}
+
+h3{
+    font-size: 2.00em;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+}
+
+
+img {
+	max-width: 200%;
+	height: auto;
+}
+
+.contact-container {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+
+.contact-spacing {
+    margin-bottom: 20px;
+}
+
+.view-container-div{ 
+
+    max-width: 1200px;
+}
+
+.p-description {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px; 
+}
+
+.view-container {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    margin-left: 650px;
+    padding: 15px;
+    border-radius: 15px;
+    border-bottom: 2px solid #000000;
+    transition: 0.2s opacity;
+}
+    
+
+.line-break {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 15px;
+    border-bottom: 2px solid #000000;
+    transition: 0.2s opacity;
+  }
+
+.button-contact {
+    display: block;
+    margin-right: 100px;
+    word-wrap: break-word;
+    width: 200px;
+    margin-bottom: 15px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 15px;
+    border-radius: 15px;
+    border-bottom: 2px solid #000000;
+    transition: 0.2s opacity;
+    text-align: center;
+  }
+
+
+.button.contact:hover {
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+a{
+    color:#274864;
+    text-decoration: none
+}
+
+a:hover {
+    color: #71639c;
+text-decoration: underline;
+}
+
+h2.centered {
+    text-align: center
+}
+
+div.button {
+    margin-top: 5px;
+    word-wrap: break-word;
+    display: block;
+}
+
+.portrait-container{
+
+    margin: auto;
+    max-width: 700px;
+}
+
+.lit-project-container{
+    display: block;
+    margin: auto;
+    max-width: 1100px;
+}
+.h1-text {
+    padding-top:20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.p-text {
+    margin: auto;
+    
+}
+
+.about-container {
+    padding-left: 10px;
+}
+
+.about-h2-text {
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+.ss_container {
+
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.ss_sub_container {
+    display: inline-block;
+}
+
+.menu {
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.menu-spacing {
+    margin-right: 15px;
+}
+
+.font-p {
+  font-weight: 900px;
+}
+
+/* Style Guide Img */
+.style-guide-img {
+    display: block;
+    margin: auto;
+    max-width: 1100px;
+}
+
+/* User Persona css */
+
+.user-persona-container {
+    margin-left: 50px;
+}
+
+.user-persona {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+.persona-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+.persona-description {
+    flex: 1;
+  }
+  
+.persona-details {
+    flex: 1;
+  }
+  
+.persona-details {
+    display: flex;
+  }
+  
+.column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+.column:last-child {
+    margin-right: 0;
+  }
+
+/* Chatgpt Image */
+
+.container-chatgpt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2-chatgpt {
+    margin-bottom: 20px;
+}
+
+/*.side-by-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+} */
+
+
+.chatgpt-icon {
+   max-width: 400px;
+   margin: auto;
+}
+
+.lit-ai-img {
+    max-width: 500px; 
+    margin: auto;
+}
+
+/* Prototype Work */
+
+.prototype-img {
+    display: block;
+    margin: auto;
+    max-width: 1100px;
+}
+
+/* Wireframes */
+
+.wireframe-img {
+    display: block;
+    margin: auto;
+    max-width: 1100px;
+}
+
+/* Testing */
+.underline-text {
+    text-decoration: underline;
+  }
+
+/* Mock-up */
+
+.mockup-img {
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+    max-width: 1100px;
+}
