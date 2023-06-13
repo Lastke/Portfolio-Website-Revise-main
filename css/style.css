@@ -95,7 +95,7 @@ body {
 /* Container padding */
 .container {
     display: block;
-    margin: auto;
+    margin: 0 auto;
     max-width: 1100px;
 }
 
@@ -127,7 +127,7 @@ body {
     border-bottom: 8px solid #000000;
     transition: 0.2s opacity;
     display: block;
-    margin: auto;
+    margin: 0 auto;
     max-width: 1100px;
     text-align: center;
     
@@ -268,13 +268,13 @@ div.button {
 
 .portrait-container{
 
-    margin: auto;
+    margin: 0 auto;
     max-width: 700px;
 }
 
 .lit-project-container{
     display: block;
-    margin: auto;
+    margin: 0 auto;
     max-width: 1100px;
 }
 .h1-text {
@@ -285,7 +285,7 @@ div.button {
 }
 
 .p-text {
-    margin: auto;
+    margin: 0 auto;
     
 }
 
@@ -326,7 +326,7 @@ div.button {
 /* Style Guide Img */
 .style-guide-img {
     display: block;
-    margin: auto;
+    margin: 0 auto;
     max-width: 1100px;
 }
 
@@ -391,19 +391,19 @@ div.button {
 
 .chatgpt-icon {
    max-width: 400px;
-   margin: auto;
+   margin: 0 auto;
 }
 
 .lit-ai-img {
     max-width: 500px; 
-    margin: auto;
+    margin: 0 auto;
 }
 
 /* Prototype Work */
 
 .prototype-img {
     display: block;
-    margin: auto;
+    margin: 0 auto;
     max-width: 1100px;
 }
 
@@ -411,7 +411,7 @@ div.button {
 
 .wireframe-img {
     display: block;
-    margin: auto;
+    margin: 0 auto;
     max-width: 1100px;
 }
 
@@ -424,7 +424,7 @@ div.button {
 
 .mockup-img {
     display: block;
-    margin: auto;
+    margin: 0 auto;
     padding-bottom: 20px;
     max-width: 1100px;
 }
